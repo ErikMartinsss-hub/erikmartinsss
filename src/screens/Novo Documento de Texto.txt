@@ -1,0 +1,64 @@
+import React, { useState, useEffect } from 'react';
+import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { Audio } from 'expo-av';
+import { Play, Pause, SkipBack, SkipForward } from 'lucide-react-native';
+
+export function Player({ route }: any) {
+  const { trackTitle, artistName, cover, audioUrl } = route.params;
+  const [sound, setSound] = useState<Audio.Sound | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  async function playSound() {
+    if (sound === null) {
+      // Aqui você usaria a URL real da música (ou uma de teste por enquanto)
+      const { sound: newSound } = await Audio.Sound.createAsync(
+        { uri: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3' } 
+      );
+      setSound(newSound);
+      await newSound.playAsync();
+      setIsPlaying(true);
+    } else {
+      if (isPlaying) {
+        await sound.pauseAsync();
+      } else {
+        await sound.playAsync();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  }
+
+  useEffect(() => {
+    return sound ? () => { sound.unloadAsync(); } : undefined;
+  }, [sound]);
+
+  return (
+    <View style={styles.container}>
+      <Image source={{ uri: cover }} style={styles.albumArt} />
+      
+      <View style={styles.info}>
+        <Text style={styles.title}>{trackTitle}</Text>
+        <Text style={styles.artist}>{artistName}</Text>
+      </View>
+
+      <View style={styles.controls}>
+        <TouchableOpacity><SkipBack size={32} color="#FFF" /></TouchableOpacity>
+        
+        <TouchableOpacity onPress={playSound} style={styles.playButton}>
+          {isPlaying ? <Pause size={40} color="#000" /> : <Play size={40} color="#000" fill="#000" />}
+        </TouchableOpacity>
+
+        <TouchableOpacity><SkipForward size={32} color="#FFF" /></TouchableOpacity>
+      </View>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#09090B', alignItems: 'center', justifyContent: 'center', padding: 20 },
+  albumArt: { width: 300, height: 300, borderRadius: 10, marginBottom: 40 },
+  info: { alignItems: 'center', marginBottom: 40 },
+  title: { color: '#FFF', fontSize: 24, fontWeight: 'bold' },
+  artist: { color: '#A1A1AA', fontSize: 18 },
+  controls: { flexDirection: 'row', alignItems: 'center', gap: 40 },
+  playButton: { backgroundColor: '#FFF', padding: 20, borderRadius: 50 },
+});
