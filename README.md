@@ -9,11 +9,11 @@
 ---
 
 ### 👨‍💻 Sobre Mim
-Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso **Análise e Desenvolvimento de Sistemas na Estácio** e comando a marca **BitSoul**. Compartilho minha jornada de código e lifestyle dev para milhares de pessoas!
+Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso **Análise e Desenvolvimento de Sistemas na Estácio** e comando a marca **BitSoul**. Compartilho minha jornada de código e projetos reais para a comunidade dev.
 
-* 📱 Criador do app **Anime Go** (Em fase final de teste na Play Store).
-* 🎥 Criador de conteúdo no YouTube: [ERIK MARTINS](https://www.youtube.com/@larissakich).
-* 📸 Dicas diárias no Instagram: [@dev_em_dev](https://www.instagram.com/dev_em_dev/).
+* 📱 Criador do app **Anime Go** (Disponível na Play Store).
+* 🎥 Canal no YouTube: [ERIK MARTINS](https://www.youtube.com/@larissakich).
+* 📸 Instagram: [@dev_em_dev](https://www.instagram.com/dev_em_dev/).
 * 📍 Suzano, SP.
 
 ---
@@ -26,7 +26,7 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 </p>
 
 ---
@@ -35,25 +35,9 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
 
 | Projeto | Descrição | Stack |
 | :--- | :--- | :--- |
-| **[🎬 Anime Go](https://github.com/ErikMartinsss-hub/ANIMEGO)** | App mobile com Firebase e TMDB. | `React Native` `TS` `Firebase` |
+| **[🎬 Anime Go](https://github.com/ErikMartinsss-hub/ANIMEGO)** | App mobile de streaming com Firebase e TMDB. | `React Native` `TS` `Firebase` |
 | **[🏎️ Best Car](https://github.com/ErikMartinsss-hub/best-car-agency)** | Landing Page automotiva de alta performance. | `React` `Tailwind` `Vite` |
-
----
-
-### 📊 Minhas Atividades no GitHub
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ErikMartinsss-hub&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ErikMartinsss-hub&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ErikMartinsss-hub&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ErikMartinsss-hub&theme=tokyonight&column=7&margin-w=15&no-bg=true" alt="GitHub Trophies" />
-</p>
+| **[🤝 Consumet API](https://github.com/consumet/api)** | Contribuição em scrapers e integração de APIs. | `TypeScript` `Node.js` |
 
 ---
 
@@ -65,6 +49,6 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
 </p>
 
 <p align="center">
-  <i>"Codificando o futuro, um commit por vez."</i><br>
+  <i>"Transformando linhas de código em experiências reais."</i><br>
   <b>BitSoul © 2026</b>
 </p>
