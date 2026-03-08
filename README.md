@@ -35,7 +35,7 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
 
 | Projeto | Descrição | Stack |
 | :--- | :--- | :--- |
-| **[🎬 Anime Go](https://github.com/ErikMartinsss-hub/ANIMEGO)** | App de streaming mobile com Firebase e TMDB. | `React Native` `TS` `Firebase` |
+| **[🎬 Anime Go](https://github.com/ErikMartinsss-hub/ANIMEGO)** | App mobile com Firebase e TMDB. | `React Native` `TS` `Firebase` |
 | **[🏎️ Best Car](https://github.com/ErikMartinsss-hub/best-car-agency)** | Landing Page automotiva de alta performance. | `React` `Tailwind` `Vite` |
 
 ---
@@ -43,20 +43,7 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
 ### 📊 Minhas Atividades no GitHub
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ErikMartinsss-hub&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ErikMartinsss-hub&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ErikMartinsss-hub&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
----
-### 📊 Minhas Atividades no GitHub
-
-<p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=ErikMartinsss-hub&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br" />
-  
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ErikMartinsss-hub&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" />
 </p>
 
@@ -81,4 +68,3 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
   <i>"Codificando o futuro, um commit por vez."</i><br>
   <b>BitSoul © 2026</b>
 </p>
-
