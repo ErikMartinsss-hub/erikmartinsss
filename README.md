@@ -52,6 +52,23 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
 </p>
 
 ---
+### 📊 Minhas Atividades no GitHub
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ErikMartinsss-hub&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br" />
+  
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ErikMartinsss-hub&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ErikMartinsss-hub&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ErikMartinsss-hub&theme=tokyonight&column=7&margin-w=15&no-bg=true" alt="GitHub Trophies" />
+</p>
+
+---
 
 ### 📫 Conecte-se Comigo
 <p align="left">
@@ -64,3 +81,4 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
   <i>"Codificando o futuro, um commit por vez."</i><br>
   <b>BitSoul © 2026</b>
 </p>
+
