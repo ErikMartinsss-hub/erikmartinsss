@@ -13,7 +13,7 @@ Desenvolvedor focado em criar soluções que impactam pessoas. Atualmente curso 
 
 * 📱 Criador do app **Anime Go** (Disponível na Play Store).
 * 🎥 Canal no YouTube: [ERIK MARTINS](https://www.youtube.com/@larissakich).
-* 📸 Instagram: [@dev_em_dev](https://www.instagram.com/dev_em_dev/).
+* 📸 Instagram: [@erikmartinsss9](https://www.instagram.com/@erikmartinsss9/).
 * 📍 Suzano, SP.
 
 ---
